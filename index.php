@@ -13,7 +13,7 @@ $button->set('Heroku');
 $button->icon = 'find';
 $button->link('https://www.heroku.com');
 $button->addClass('blue');
-$buton = $app->add('Button');
+$button = $app->add('Button');
 $button->set('Steam');
 $button->icon = 'find';
 $button->link('http://store.steampowered.com');
