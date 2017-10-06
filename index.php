@@ -11,3 +11,4 @@ $button = $app->add('Button');
 $button->set('Heroku');
 $button->icon = 'find';
 $button->link('https://www.heroku.com');
+$button->addClass('big blue');
