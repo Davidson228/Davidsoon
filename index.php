@@ -26,7 +26,7 @@ $button->addClass('huge green');
 $button->link('https://semantic-ui.com');
 
 $button = $app->add('Button');
-$button->set('Apple shop');
+$button->set('Apple Shop');
 $button->icon = 'apple';
 $button->link('https://www.apple.com');
 $button->addClass('small teal');
