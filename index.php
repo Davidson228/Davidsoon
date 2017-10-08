@@ -32,3 +32,9 @@ $button->set('Apple Shop');
 $button->icon = 'apple';
 $button->link('https://www.apple.com');
 $button->addClass('small teal');
+
+$button = $app->add('Button');
+$button->set('GitHub');
+$button->icon = 'github square';
+$button->link('https://github.com');
+$button->addClass('blue');
