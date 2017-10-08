@@ -21,7 +21,8 @@ $button->icon = 'steam square';
 $button->link('http://store.steampowered.com');
 $button->addClass('big yellow');
 
-$button = $app->add(['Button', 'Semantic', 'iconRight'=>'right arrow']);
+$button = $app->add('Button');
+$button->set('Semantic');
 $button->addClass('huge green');
 $button->link('https://semantic-ui.com');
 $button->icon = 'empire';
