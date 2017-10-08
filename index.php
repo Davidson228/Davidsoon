@@ -35,6 +35,6 @@ $button->addClass('small teal');
 
 $button = $app->add('Button');
 $button->set('GitHub');
-$button->icon = 'github square';
+$button->icon = 'github';
 $button->link('https://github.com');
 $button->addClass('blue');
