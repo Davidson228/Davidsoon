@@ -3,6 +3,7 @@ require 'vendor/autoload.php';
 echo 'hello my name is david';
 $app = new \atk4\ui\App('Galijo');
 $app->initLayout('Centered');
+
 $button = $app->add('Button');
 $button->set('E-klase');
 $button->icon = 'find';
@@ -32,8 +33,3 @@ $button->icon = 'apple';
 $button->link('https://www.apple.com');
 $button->addClass('small teal');
 
-$button = $app->add('Button');
-$button->set('GitHub');
-$button->icon = 'github square';
-$button->link('https://github.com');
-$button->addClass('blue');
