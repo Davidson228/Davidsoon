@@ -24,7 +24,7 @@ $button->addClass('big yellow');
 $button = $app->add(['Button', 'Semantic', 'iconRight'=>'right arrow']);
 $button->addClass('huge green');
 $button->link('https://semantic-ui.com');
-$button->icon = 'empire'
+$button->icon = 'empire';
 
 $button = $app->add('Button');
 $button->set('Apple Shop');
