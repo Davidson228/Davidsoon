@@ -3,7 +3,6 @@ require 'vendor/autoload.php';
 echo 'hello my name is david';
 $app = new \atk4\ui\App('Galijo');
 $app->initLayout('Centered');
-
 $button = $app->add('Button');
 $button->set('E-klase');
 $button->icon = 'find';
@@ -32,4 +31,3 @@ $button->set('Apple Shop');
 $button->icon = 'apple';
 $button->link('https://www.apple.com');
 $button->addClass('small teal');
-
