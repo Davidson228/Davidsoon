@@ -31,10 +31,16 @@ $button = $app->add('Button');
 $button->set('Apple Shop');
 $button->icon = 'apple';
 $button->link('https://www.apple.com');
-$button->addClass('small teal');
+$button->addClass('big teal');
 
 $button = $app->add('Button');
 $button->set('GitHub');
 $button->icon = 'github';
 $button->link('https://github.com');
 $button->addClass('blue');
+
+$button = $app->add('Button');
+$button->set('Instagram');
+$button->icon = 'instagram';
+$button->link('https://www.instagram.com');
+$button->addClass('small violet');
