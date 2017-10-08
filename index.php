@@ -20,4 +20,4 @@ $button->link('http://store.steampowered.com');
 $button->addClass('big green');
 $button = $app->add(['Button', 'Next', 'iconRight'=>'right arrow']);
 $button->addClass('black');
-$button->link('https://semantic-ui.com')
+$button->link('https://semantic-ui.com');
