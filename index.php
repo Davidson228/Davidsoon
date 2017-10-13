@@ -42,5 +42,7 @@ $button->addClass('blue');
 $button = $app->add('Button');
 $button->set('Instagram');
 $button->icon = 'instagram';
-$button->link('https://www.instagram.com');
+//$button->link('https://www.instagram.com');
 $button->addClass('small violet');
+
+$button -> link('Galijo.php');
