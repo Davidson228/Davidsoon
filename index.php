@@ -48,4 +48,4 @@ $button->addClass('small violet');
 $button -> link('link.php');
 $label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','detail' =>'hello' ]);
 $img = 'https://pbs.twimg.com/profile_images/832222243614756864/GM50ie3U.jpg';
-$icon = $app->add(['Image', $img])
+$icon = $app->add(['Image', $img]);
