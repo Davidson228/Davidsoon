@@ -45,4 +45,4 @@ $button->icon = 'instagram';
 //$button->link('https://www.instagram.com');
 $button->addClass('small violet');
 
-$button -> link('Galijo.php');
+$button -> link('link.php');
