@@ -46,3 +46,4 @@ $button->icon = 'instagram';
 $button->addClass('small violet');
 
 $button -> link('link.php');
+$label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','detail' =>'hello' ]);
