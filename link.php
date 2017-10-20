@@ -9,7 +9,7 @@ $a = -100;
 if ($a > 0) {
 $name  = 'Верно!';
 } else {
-  echo 'Неверно!';
+$name = 'Неверно!';
 }
 $label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
