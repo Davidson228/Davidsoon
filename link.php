@@ -5,8 +5,8 @@ $app->initLayout('Centered');
 //$button -> link('')
 $label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','detail' =>'hello' ]);
 $text = $app->add(['Text','Astralis']);
-$a = -100;
-if ($a > 0) {
+$a = 0;
+if ($a == 0) {
 $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
