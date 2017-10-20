@@ -16,8 +16,29 @@ $name = 'Неверно!';
 $label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
 
+$a = 1;
+if ($a > 0) {
+$name  = 'Верно!';
+} else {
+$name = 'Неверно!';
+}
+
 $a = 0;
-if ($a == 0) {
+if ($a < 0) {
+$name  = 'Верно!';
+} else {
+$name = 'Неверно!';
+}
+
+$a = 0;
+if ($a >= 0) {
+$name  = 'Верно!';
+} else {
+$name = 'Неверно!';
+}
+
+$a = 0;
+if ($a <= 0) {
 $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
@@ -30,29 +51,8 @@ $name  = 'Верно!';
 $name = 'Неверно!';
 }
 
-$a = 0;
-if ($a != 0) {
-$name  = 'Верно!';
-} else {
-$name = 'Неверно!';
-}
-
-$a = 0;
-if ($a != 0) {
-$name  = 'Верно!';
-} else {
-$name = 'Неверно!';
-}
-
-$a = 0;
-if ($a != 0) {
-$name  = 'Верно!';
-} else {
-$name = 'Неверно!';
-}
-
-$a = 0;
-if ($a != 0) {
+$a = 'test';
+if ($a == 'test') {
 $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
