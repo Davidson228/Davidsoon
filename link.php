@@ -7,9 +7,9 @@ $label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','deta
 $text = $app->add(['Text','Astralis']);
 $a = -100;
 if ($a > 0) {
-  echo 'Верно!';
+$name  = 'Верно!';
 } else {
   echo 'Неверно!';
 }
-$label = $app->add(['Label', 'Navi','big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
