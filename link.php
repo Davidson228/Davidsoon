@@ -22,6 +22,8 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
 
 $a = 0;
 if ($a < 0) {
@@ -29,6 +31,11 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
+
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
 
 $a = 0;
 if ($a >= 0) {
@@ -36,6 +43,8 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
 
 $a = 0;
 if ($a <= 0) {
@@ -43,6 +52,8 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
 
 $a = 0;
 if ($a != 0) {
@@ -50,10 +61,15 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
+$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
+
 
 $a = 'test';
 if ($a == 'test') {
 $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
-}
+
+}$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$text = $app->add(['Text','Navi']);
