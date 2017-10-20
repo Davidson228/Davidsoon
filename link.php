@@ -23,7 +23,8 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
-$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$color = 'big green';
+$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
 
 $a = 0;
@@ -32,7 +33,8 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
-$label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$color = 'big red';
+$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
 
 $label = $app->add(['Label', $name,'big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
