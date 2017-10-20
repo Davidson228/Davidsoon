@@ -11,5 +11,5 @@ if ($a > 0) {
 } else {
   echo 'Неверно!';
 }
-label = $app->add(['Label', 'Navi','big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', 'Navi','big pink','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
 $text = $app->add(['Text','Navi']);
