@@ -14,7 +14,7 @@ $name  = 'Верно!';
 $name = 'Неверно!';
 }
 $color = 'big red';
-$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 $a = 1;
@@ -24,7 +24,7 @@ $name  = 'Верно!';
 $name = 'Неверно!';
 }
 $color = 'big green';
-$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 $a = 0;
@@ -34,10 +34,10 @@ $name  = 'Верно!';
 $name = 'Неверно!';
 }
 $color = 'big red';
-$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,$color,'icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
-$label = $app->add(['Label', $name,'big red','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,'big red','icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 $a = 0;
@@ -46,7 +46,7 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
-$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 $a = 0;
@@ -55,7 +55,7 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
-$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 $a = 0;
@@ -64,7 +64,7 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 }
-$label = $app->add(['Label', $name,'big red','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+$label = $app->add(['Label', $name,'big red','icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
 
 
@@ -74,5 +74,5 @@ $name  = 'Верно!';
 } else {
 $name = 'Неверно!';
 
-}$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome','detail' =>'Сливаю не сливаемое, тащу нетащимое' ]);
+}$label = $app->add(['Label', $name,'big green','icon'=>'fort awesome']);
 $text = $app->add(['Text','Navi']);
