@@ -40,8 +40,8 @@ $button->link('https://github.com');
 $button->addClass('blue');
 
 $button = $app->add('Button');
-$button->set('Instagram');
-$button->icon = 'instagram';
+$button->set('Homework');
+$button->icon = 'book';
 //$button->link('https://www.instagram.com');
 $button->addClass('small violet');
 
