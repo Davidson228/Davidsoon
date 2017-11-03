@@ -53,4 +53,4 @@ $icon = $app->add(['Image', $img]);*/
 //$label = $app->add(['Label', 'Домашнее задание кнопка Homework', 'black','icon'=>'alarm']);
 
 $button = $app->layout->add(['Button','Hello']);
-$button->link(['text', 'name'=>'David']);
+$button->link(['test', 'name'=>'David']);
