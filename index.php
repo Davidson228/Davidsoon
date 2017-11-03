@@ -50,7 +50,7 @@ $label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','deta
 $img = 'https://pbs.twimg.com/profile_images/832222243614756864/GM50ie3U.jpg';
 $icon = $app->add(['Image', $img]);*/
 
-$label = $app->add(['Label', 'Домашнее задание кнопка Homework', 'black','icon'=>'alarm']);
+//$label = $app->add(['Label', 'Домашнее задание кнопка Homework', 'black','icon'=>'alarm']);
 
 $button = $app->layout->add(['Button','Hello']);
 $button->link(['text', 'name'=>'David']);
