@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 echo 'hello my name is David';
 $app = new \atk4\ui\App('Galijo');
 $app->initLayout('Centered');
-$button = $app->add('Button');
+/*$button = $app->add('Button');
 $button->set('E-klase');
 $button->icon = 'find';
 $button->link('https://www.e-klase.lv');
@@ -48,6 +48,9 @@ $button->addClass('small violet');
 $button -> link('link.php');
 $label = $app->add(['Label', 'Astralis','big brown','icon'=>'fort awesome','detail' =>'hello' ]);
 $img = 'https://pbs.twimg.com/profile_images/832222243614756864/GM50ie3U.jpg';
-$icon = $app->add(['Image', $img]);
+$icon = $app->add(['Image', $img]);*/
 
 $label = $app->add(['Label', 'Домашнее задание кнопка Homework', 'black','icon'=>'alarm']);
+
+$button = $app->layout->add(['Button','Hello']);
+$button->link(['text', 'name'=>'David']);
