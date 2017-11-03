@@ -61,3 +61,15 @@ $button->set('1');
 $button->icon = 'book';
 $button->addClass('massive');
 $button->link(['test', 'name'=>'1']);
+
+$button = $app->add('Button');
+$button->set('2');
+$button->icon = 'book';
+$button->addClass('massive');
+$button->link(['test', 'name'=>'2']);
+
+$button = $app->add('Button');
+$button->set('3');
+$button->icon = 'book';
+$button->addClass('massive');
+$button->link(['test', 'name'=>'3']);
