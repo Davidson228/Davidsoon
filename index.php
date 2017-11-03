@@ -55,3 +55,8 @@ $icon = $app->add(['Image', $img]);*/
 $button = $app->layout->add(['Button','Hello']);
 $button->link(['test', 'name'=>'David', 'surname'=>'Arinsh']);
 //$button->link(['test', 'surname'=>'Arinsh']);
+
+$button = $app->add('Button');
+$button->set('1');
+$button->icon = 'pen';
+$button->addClass('massive');
