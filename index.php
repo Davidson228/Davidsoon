@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 echo 'hello my name is David';
-$app = new \atk4\ui\App('Galijo');
+$app = new \atk4\ui\App('Игрушечка');
 $app->initLayout('Centered');
 /*$button = $app->add('Button');
 $button->set('E-klase');
@@ -54,7 +54,7 @@ $icon = $app->add(['Image', $img]);*/
 
 /*$button = $app->layout->add(['Button','Hello']);
 $button->link(['test', 'name'=>'David', 'surname'=>'Arinsh']);
-//$button->link(['test', 'surname'=>'Arinsh']);*/
+//$button->link(['test', 'surname'=>'Arinsh']);
 
 $button = $app->add('Button');
 $button->set('1');
@@ -72,4 +72,8 @@ $button = $app->add('Button');
 $button->set('3');
 $button->icon = 'book';
 $button->addClass('massive');
-$button->link(['test', 'name'=>'3']);
+$button->link(['test', 'name'=>'3']);*/
+
+ $text = $app -> add (['Text','Стартуем']);
+ $button =$app->add(['Button','START GAME']);
+ $button->link(['test', 'min'=>1, 'max'=>100]);
