@@ -9,7 +9,7 @@ $max = $_GET['max'];
 if (($max-$min==1) and (ISSET($_GET['key']))){
 $text = $app -> add (['Text','Ошибка']);
 $button4=$app->add(['Button','RESTART']);
-$button4->link(['index', 'min'=>0, 'max'=>100]);
+$button4->link(['index']);
 }else{
 
 $mid =round ( ($max + $min) / 2);
