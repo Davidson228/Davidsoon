@@ -9,8 +9,8 @@ $max = $_GET['max'];
 if (($max-$min==1) and (ISSET($_GET['key']))){
 $text = $app -> add (['Text','Ошибка']);
 $button4=$app->add(['Button','RESTART']);
-$button4->link(['test', 'min'=>0, 'max'=>100]);
-}
+$button4->link(['index', 'min'=>0, 'max'=>100]);
+}else{
 
 $mid =round ( ($max + $min) / 2);
 $label = $app->add(['Label', 'Твоё число это '.$mid.' ?', 'black','icon'=>'alarm']);
@@ -25,3 +25,4 @@ $button2->link(['test', 'min'=>$min, 'max'=>$mid]);
 $button3 = $app->add('Button');
 $button3->set('Нет моё число больше');
 $button3->link(['test', 'min'=>$mid, 'max'=>$max]);
+}
