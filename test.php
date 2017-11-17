@@ -23,4 +23,4 @@ $button2->link(['test', 'mid'=>$mid, 'max'=>$max]);
 
 $button3 = $app->add('Button');
 $button3->set('Нет моё число больше');
-$button2->link(['test', 'min'=>$min, 'max'=>$mid]);
+$button3->link(['test', 'min'=>$min, 'max'=>$mid]);
