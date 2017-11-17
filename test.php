@@ -6,7 +6,7 @@ $app->initLayout('Centered');
 if ($max-$min==1){
 $text = $app -> add (['Text','Ошибка']);
 $button4=$app->$add(['Button','RESTART']);
-$button4->link(['index', 'min'=>0, 'max'=>100]);
+$button4->link(['test', 'min'=>0, 'max'=>100]);
 }
 
 $min = $_GET['min'];
