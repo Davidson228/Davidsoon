@@ -20,9 +20,9 @@ $button1->set('Да это моё число');
 
 $button2 = $app->add('Button');
 $button2->set('Нет моё число меньше');
-$button2->link(['test', 'min'=>$min, 'max'=>$mid]);
+$button2->link(['test', 'min'=>$min, 'max'=>$mid,'key'=>'key']);
 
 $button3 = $app->add('Button');
 $button3->set('Нет моё число больше');
-$button3->link(['test', 'min'=>$mid, 'max'=>$max]);
+$button3->link(['test', 'min'=>$mid, 'max'=>$max, 'key'=>'key']);
 }
