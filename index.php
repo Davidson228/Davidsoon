@@ -76,4 +76,4 @@ $button->link(['test', 'name'=>'3']);*/
 
  $text = $app -> add (['Text','Стартуем']);
  $button =$app->add(['Button','START GAME']);
- $button->link(['test', 'min'=>1, 'max'=>100]);
+ $button->link(['test', 'min'=>0, 'max'=>100]);
