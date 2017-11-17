@@ -7,7 +7,7 @@ if ($max-$min==1){
 $text = $app -> add (['Text','Ошибка']);
 $button4=$app->$add(['Button','RESTART']);
 $button4->link(['index', 'min'=>0, 'max'=>100]);
-}
+}else{
 
 $min = $_GET['min'];
 $max = $_GET['max'];
