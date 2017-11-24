@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+require 'Cat.php';
 echo 'hello my name is David';
 $app = new \atk4\ui\App('Игрушечка');
 $app->initLayout('Centered');
@@ -72,8 +73,33 @@ $button = $app->add('Button');
 $button->set('3');
 $button->icon = 'book';
 $button->addClass('massive');
-$button->link(['test', 'name'=>'3']);*/
+$button->link(['test', 'name'=>'3']);
 
  $text = $app -> add (['Text','Стартуем']);
  $button =$app->add(['Button','START GAME']);
- $button->link(['test', 'min'=>0, 'max'=>100]);
+ $button->link(['test', 'min'=>0, 'max'=>100]);*/
+
+ $cat1 = new Cat;
+ $cat1 -> age = '0.8';
+ $cat1 -> sex = 'male';
+ $cat1 -> colour = 'White'
+ $cat1 -> name = 'Банан';
+
+ $cat2 = new Cat;
+ $cat2 -> age = '0.2';
+ $cat2 -> sex = 'male';
+ $cat2 -> colour = 'Black'
+ $cat2 -> name = 'Олег';
+
+ $cat3 = new Cat;
+ $cat3 -> age = '2';
+ $cat3 -> sex = 'female';
+ $cat3 -> colour = 'Grey'
+ $cat3 -> name = 'Колян';
+
+ $cat4 = new Cat;
+ $cat4 -> age = '0.5';
+ $cat3 -> sex = 'female';
+ $cat4 -> colour = 'Red'
+ $cat4 -> name = 'Лёха';
+ 
