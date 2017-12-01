@@ -1,5 +1,5 @@
 <?php
-CLass Laima {
+CLass Candy {
   public $colour;
   public $price;
   public $name;
