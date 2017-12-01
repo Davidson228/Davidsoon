@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'Cat.php';
+require 'Laima.php';
 echo 'hello my name is David';
 $app = new \atk4\ui\App('Игрушечка');
 $app->initLayout('Centered');
