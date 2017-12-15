@@ -47,8 +47,8 @@ class Friends extends \atk4\data\Model {
 }
 }
 $form = $app->layout->add('Form');
-$form->setModel(new User($db));
+$form->setModel(new Friends($db));
 $form->onSubmit(function($form) {
-  $form->model->sve();
+  $form->model->save();
   return $form->success('Record update');
 });
