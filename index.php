@@ -1,11 +1,10 @@
 <?php
 require 'vendor/autoload.php';
-require 'Laima.php';
-echo 'hello my name is David';
+//require 'Laima.php';
+//echo 'hello my name is David';
 $app = new \atk4\ui\App('Игрушечка');
 $app->initLayout('Centered');
-
-
+/*
  $candy1 = new Candy;
  $candy1 ->name = 'Serenade';
  $candy1 ->colour = 'blue';
@@ -31,4 +30,25 @@ $app->initLayout('Centered');
  $candy4 ->name = 'Vaverite';
  $candy4 ->colour = 'green';
  $candy4 ->price = '7';
- $label4 = $app->add(['Label',$candy4 ->name,$candy4 ->colour, 'detail'=>$candy4 ->price ,'icon'=>'candy' ]);
+ $label4 = $app->add(['Label',$candy4 ->name,$candy4 ->colour, 'detail'=>$candy4 ->price ,'icon'=>'candy' ]);*/
+
+ $db = new
+\atk4\data\Persistence_SQL('mysql:dbname=fdb=for_сolibri;host=localhost','root','');
+class Friends extends \atk4\data\Model {
+  public $table = 'friends';
+  function init() {
+    $this->addField('name');
+    $this->addField('surname')
+    $this->addField('phone_number',['default'=>'+371']);
+    $this->addField('email');
+    $this->addField('password',['type']);
+    $this->addField('birthsday',['type'=>'date']);
+    $this->addField('notes',['type'=>'text']);
+}
+}
+$form = $app->layout->add('Form');
+$form->setModel(new User($db));
+$form->onSubmit(function($form) {
+  $form->model->sve();
+  return $form->success('Record update');
+});
