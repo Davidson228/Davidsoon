@@ -59,6 +59,7 @@ $grid = $app->layout->add('Grid');
 $grid->setModel(new Friends($db));*/
 
 $menu = $app->add('Menu');
+$clothes = $menu->addMenu('Cloths');
 $menu->addItem('Shirts');
 $menu->addItem('Pants');
 $menu->addItem('Shoes');
