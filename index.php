@@ -58,5 +58,5 @@ $crud->setModel(new Friends($db));
 $grid = $app->layout->add('Grid');
 $grid->setModel(new Friends($db));*/
 
-$tabs = $app=add('tabs')
-$tabs->addTab('Shirts')
+$tabs = $app=add('Menu')
+$tabs->addItem('Shirts')
