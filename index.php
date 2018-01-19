@@ -67,3 +67,8 @@ $clothes->addItem('Shoes');
 $wheelchair = $menu->addMenu('Wheelchair');
 $wheelchair->addItem('Kids');
 $wheelchair->addItem('Adults');
+
+$ladder = $menu->addMenu('Ladders');
+$ladder->addItem('Big');
+$ladder->addItem('Small');
+
