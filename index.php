@@ -31,7 +31,7 @@ $app->initLayout('Centered');
  $candy4 ->price = '7';
  $label4 = $app->add(['Label',$candy4 ->name,$candy4 ->colour, 'detail'=>$candy4 ->price ,'icon'=>'candy' ]);
  */
-
+/*
  $db = new
 \atk4\data\Persistence_SQL('mysql:dbname=fdb;for_сolibri;host=localhost','root','');
 class Friends extends \atk4\data\Model {
@@ -56,4 +56,7 @@ $form->onSubmit(function($form) {
 $crud = $app->layout->add('CRUD');
 $crud->setModel(new Friends($db));
 $grid = $app->layout->add('Grid');
-$grid->setModel(new Friends($db));
+$grid->setModel(new Friends($db));*/
+
+$tabs = $app=add('tabs')
+$tabs->addTab('Shirts')
