@@ -63,3 +63,7 @@ $clothes = $menu->addMenu('Clothes');
 $clothes->addItem('Shirts');
 $clothes->addItem('Pants');
 $clothes->addItem('Shoes');
+
+$wheelchair = $menu->addMenu('Wheelchair');
+$wheelchair->addItem('Kids');
+$wheelchair->addItem('Adults');
