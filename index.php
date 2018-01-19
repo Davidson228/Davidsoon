@@ -60,7 +60,7 @@ $grid->setModel(new Friends($db));*/
 
 $menu = $app->add('Menu');
 $clothes = $menu->addMenu('Clothes');
-$clothes->addItem('Shirts');
+$clothes->addItem('Shirts', 'https://assets.academy.com/mgen/95/10787095.jpg');
 $clothes->addItem('Pants');
 $clothes->addItem('Shoes');
 
