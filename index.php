@@ -1,7 +1,5 @@
 <?php
 require 'vendor/autoload.php';
-//require 'Laima.php';
-//echo 'hello my name is David';
 $app = new \atk4\ui\App('База данных');
 $app->initLayout('Centered');
 /*
@@ -71,10 +69,8 @@ $wheelchair->addItem('Adults');
 $ladder = $menu->addMenu('Ladders');
 $ladder->addItem('Big');
 $ladder->addItem('Small');
-
+*/
 $tabs = $app->add('Tabs');
 $clothes = $tabs->addTab('Clothes');
 $wheelchair = $tabs->addTab('Wheelchair');
 $ladder = $tabs->addTab('Ladders');
-*/
-echo 5;
