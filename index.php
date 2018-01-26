@@ -71,7 +71,8 @@ $ladder->addItem('Big');
 $ladder->addItem('Small');
 
 $tabs = $app->add('Tabs');
-$clothes = $tabs->addTab('Clothes')->add('HelloWorld');
+$clothes = $tabs->addTab('Clothes');
+$da = $clothes->add(['Image','https://www.aliexpress.com/category/100003070/men-clothing-accessories.html'])
 
 $wheelchair = $tabs->addTab('Wheelchair');
 
