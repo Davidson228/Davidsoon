@@ -71,8 +71,10 @@ $wheelchair->addItem('Adults');
 $ladder = $menu->addMenu('Ladders');
 $ladder->addItem('Big');
 $ladder->addItem('Small');
-*/
+
 $tabs = $app->add('Tabs');
 $clothes = $tabs->addTab('Clothes');
 $wheelchair = $tabs->addTab('Wheelchair');
 $ladder = $tabs->addTab('Ladders');
+*/
+echo 5;
