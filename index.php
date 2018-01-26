@@ -72,14 +72,9 @@ $ladder->addItem('Small');
 
 $tabs = $app->add('Tabs');
 $clothes = $tabs->addTab('Clothes')->add('HelloWorld');
-$clothes->addItem('Pants');
-$clothes->addItem('Shoes');
-$clothes->addItem('Shirts');
 
 $wheelchair = $tabs->addTab('Wheelchair');
-$wheelchair->addItem('Kids');
-$wheelchair->addItem('Adults');
 
 $ladder = $tabs->addTab('Ladders');
-$ladder->addItem('Big');
-$ladder->addItem('Small');
+
+$backpack = $tabs->addTab('Backpacks');
