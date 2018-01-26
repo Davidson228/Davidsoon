@@ -64,7 +64,7 @@ $clothes->addItem('Shirts', 'https://assets.academy.com/mgen/95/10787095.jpg');
 $clothes->addItem('Pants');
 $clothes->addItem('Shoes');
 
-$wheelchair = $menu->addMenu('Wheelchair');
+$wheelchair = $menu->addMenu('Wheelchairs');
 $wheelchair->addItem('Kids');
 $wheelchair->addItem('Adults');
 
@@ -72,3 +72,7 @@ $ladder = $menu->addMenu('Ladders');
 $ladder->addItem('Big');
 $ladder->addItem('Small');
 
+$tabs = $app->add('Tabs');
+$clothes = $tabs->addTab('Clothes');
+$wheelchair = $tabs->addTab('Wheelchair');
+$ladder = $tabs->addTab('Ladders');
