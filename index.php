@@ -72,5 +72,5 @@ $ladder->addItem('Small');
 */
 $tabs = $app->add('Tabs');
 $clothes = $tabs->addTab('Clothes')->add('HelloWorld');
-//$wheelchair = $tabs->addTab('Wheelchair');
-//$ladder = $tabs->addTab('Ladders');
+$wheelchair = $tabs->addTab('Wheelchair');
+$ladder = $tabs->addTab('Ladders');
