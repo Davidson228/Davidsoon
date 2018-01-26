@@ -31,7 +31,7 @@ $app->initLayout('Centered');
  $candy4 ->price = '7';
  $label4 = $app->add(['Label',$candy4 ->name,$candy4 ->colour, 'detail'=>$candy4 ->price ,'icon'=>'candy' ]);
  */
-
+/*
  $db = new
 \atk4\data\Persistence_SQL('mysql:dbname=fdb;host=localhost','root','');
 class Friends extends \atk4\data\Model {
@@ -56,4 +56,19 @@ $form->onSubmit(function($form) {
 $crud = $app->layout->add('CRUD');
 $crud->setModel(new Friends($db));
 $grid = $app->layout->add('Grid');
-$grid->setModel(new Friends($db));
+$grid->setModel(new Friends($db));*/
+
+$menu = $app->add('Menu');
+$clothes = $menu->addMenu('Clothes');
+$clothes->addItem('Shirts', 'https://assets.academy.com/mgen/95/10787095.jpg');
+$clothes->addItem('Pants');
+$clothes->addItem('Shoes');
+
+$wheelchair = $menu->addMenu('Wheelchair');
+$wheelchair->addItem('Kids');
+$wheelchair->addItem('Adults');
+
+$ladder = $menu->addMenu('Ladders');
+$ladder->addItem('Big');
+$ladder->addItem('Small');
+
