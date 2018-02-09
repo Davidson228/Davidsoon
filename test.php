@@ -15,7 +15,7 @@ $button4->link(['index']);
 $mid =round ( ($max + $min) / 2);
 $label = $app->add(['Label', 'Твоё число это '.$mid.' ?', 'black','icon'=>'alarm']);
 
-$button1 = $app->add('Button');
+
 $button1->set('Да это моё число');
 
 $button2 = $app->add('Button');
