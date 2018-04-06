@@ -2,30 +2,28 @@
 
 
 $db = new
-\atk4\data\Persistence_SQL('mysql:dbname=fdb;host=localhost','root','');
+\atk4\data\Persistence_SQL('mysql:dbname=travel;host=localhost','root','');
 class Places extends \atk4\data\Model {
- public $table = 'friends';
+ public $table = 'places';
  function init() {
    parent::init();
    $this->addField('name');
-   $this->addField('surname');
-   $this->addField('deparure_date',['type'=>'date']);
-   $this->addField('email');
-   $this->addField('arrival_date',['type'=>'date']);
+    $this->hasMany('Clients', new Clients);
  }
 }
 
-$db = new
-\atk4\data\Persistence_SQL('mysql:dbname=fdb;host=localhost','root','');
 class Clients extends \atk4\data\Model {
- public $table = 'friends';
+ public $table = 'clients';
  function init() {
    parent::init();
+
    $this->addField('name');
    $this->addField('surname');
-   $this->addField('arrival_date');
+   $this->addField('departure_date',['type'=>'date']);
    $this->addField('email');
-   $this->addField('deparure_date',['type'=>'date']);
+   $this->addField('arrival_date',['type'=>'date']);
+
+   $this->hasOne('places_id', new Places)->addTitle();
 
  }
 }
