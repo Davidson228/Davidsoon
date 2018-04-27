@@ -1,5 +1,5 @@
 <?php
-
+ 
 $layout = $app->layout;
 
 $layout->leftMenu->addItem(['Main page','icon'=>'building'],['index']);
